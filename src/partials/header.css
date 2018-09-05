@@ -1,0 +1,16 @@
+.kk-header-container {
+    
+
+}
+
+.kk-item {
+    display: inline-block;
+    width: 50%;
+    height: 50px;
+    background-color: #d8d8d8;
+    text-decoration: none;
+    line-height: 3;
+    font-size: 18px;
+    color: black
+
+}
