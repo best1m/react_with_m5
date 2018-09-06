@@ -9,9 +9,6 @@ class ProductPage extends Component {
 
     state = {
         posts: null,
-        style : {
-            backgroundColor : 'skyblue'
-        }
     }
 
 
@@ -45,7 +42,7 @@ class ProductPage extends Component {
         let buttonStyle={marginTop : '50px'};
         let imageStyle = {width : '200px', height : '200px'}
         return (
-            <div style={this.state.style}>
+            <div style={this.state.style} className="kk-panel">
                 {this.state.posts == null ? <button style={buttonStyle} onClick={this.onShowPosts}>Show Productlist</button> : ''}
                {this.state.posts != null ? <button style={buttonStyle} onClick={this.onDeletePosts}>Hide</button> : ''}
                <div>
